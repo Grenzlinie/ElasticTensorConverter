@@ -159,8 +159,8 @@ class TensorConverter:
             voigt_matrix[3, 0] = C14
             voigt_matrix[1, 3] = -C14
             voigt_matrix[3, 1] = -C14
-            voigt_matrix[4, 5] = C13
-            voigt_matrix[5, 4] = C13
+            voigt_matrix[4, 5] = C14
+            voigt_matrix[5, 4] = C14
             voigt_matrix[2, 2] = C33
             voigt_matrix[3, 3] = C44
             voigt_matrix[4, 4] = C44
@@ -188,8 +188,8 @@ class TensorConverter:
             voigt_matrix[3, 0] = C14
             voigt_matrix[1, 3] = -C14
             voigt_matrix[3, 1] = -C14
-            voigt_matrix[4, 5] = C13
-            voigt_matrix[5, 4] = C13
+            voigt_matrix[4, 5] = C14
+            voigt_matrix[5, 4] = C14
             voigt_matrix[0, 4] = -C25
             voigt_matrix[4, 0] = -C25
             voigt_matrix[1, 4] = C25
